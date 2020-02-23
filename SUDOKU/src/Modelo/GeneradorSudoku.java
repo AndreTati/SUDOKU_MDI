@@ -98,5 +98,59 @@ public class GeneradorSudoku {
         }
     }
     
+    public boolean existeFila(int numero, int fila){
+        boolean existe=false;
+        for(int i=0; i<this.matriz.length; i++){
+            if(matriz[fila][i]==numero){
+                existe=true;
+                break;
+            }
+        }
+        return existe;
+    }
     
+    public boolean existeColumna(int numero, int columna){
+        boolean existe=false;
+        for(int i=0; i<this.matriz.length; i++){
+            if(matriz[i][columna]==numero){
+                existe=true;
+                break;
+            }
+        }
+        return existe;
+    }
+    
+    public boolean existeCaja(int numero, int fila, int columna){
+        boolean existe=false;
+        int minFila=0, maxFila=0, minColumna=0, maxColumna=0;
+        if(fila>=0 && fila<=2){
+            minFila=0;
+            maxFila=2;
+        }else if(fila>=3 && fila<=5){
+            minFila=3;
+            maxFila=5;
+        }else if(fila>=6 && fila<=8){
+            minFila=6;
+            maxFila=8;
+        }
+        if(columna>=0 && columna <=2){
+            minColumna=0;
+            maxColumna=2;
+        }else if(columna>=3 && columna <=5){
+            minColumna=3;
+            maxColumna=5;
+        }else if(columna>=6 && columna<=8){
+            minColumna=6;
+            maxColumna=8;
+        }
+        for(int i=minFila; i<=maxFila; i++){
+            for(int j=minColumna; j<=maxColumna; j++){
+                if(matriz[i][j]==numero){
+                    existe=true;
+                    break;
+                }
+            }
+        }
+        return existe;
+    }
 }
