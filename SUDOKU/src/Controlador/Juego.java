@@ -110,6 +110,7 @@ public class Juego implements ActionListener, KeyListener{
         this.sudoku.getTxt86().addKeyListener(this);
         this.sudoku.getTxt87().addKeyListener(this);
         this.sudoku.getTxt88().addKeyListener(this);
+        generarTablero(this.generador.getMatriz());
     }
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -140,6 +141,276 @@ public class Juego implements ActionListener, KeyListener{
     
     }
 
+    public void generarTablero(int matriz[][]) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[0].length; j++) {
+                if (matriz[i][j] != 0) {
+                    if (i == 0) {
+                        if (j == 0) {
+                            sudoku.getTxt00().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt00().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt01().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt01().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt02().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt02().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt03().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt03().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt04().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt04().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt05().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt05().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt06().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt06().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt07().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt07().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt08().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt08().setEditable(false);
+                        }
+                    } else if (i == 1) {
+                        if (j == 0) {
+                            sudoku.getTxt10().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt10().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt11().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt11().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt12().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt12().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt13().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt13().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt14().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt14().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt15().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt15().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt16().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt16().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt17().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt17().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt18().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt18().setEditable(false);
+                        }
+                    } else if (i == 2) {
+                        if (j == 0) {
+                            sudoku.getTxt20().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt20().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt21().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt21().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt22().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt22().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt23().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt23().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt24().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt24().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt25().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt25().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt26().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt26().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt27().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt27().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt28().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt28().setEditable(false);
+                        }
+                    } else if (i == 3) {
+                        if (j == 0) {
+                            sudoku.getTxt30().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt30().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt31().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt31().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt32().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt32().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt33().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt33().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt34().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt34().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt35().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt35().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt36().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt36().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt37().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt37().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt38().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt38().setEditable(false);
+                        }
+                    } else if (i == 4) {
+                        if (j == 0) {
+                            sudoku.getTxt40().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt40().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt41().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt41().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt42().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt42().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt43().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt43().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt44().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt44().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt45().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt45().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt46().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt46().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt47().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt47().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt48().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt48().setEditable(false);
+                        }
+                    } else if (i == 5) {
+                        if (j == 0) {
+                            sudoku.getTxt50().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt50().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt51().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt51().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt52().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt52().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt53().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt53().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt54().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt54().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt55().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt55().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt56().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt56().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt57().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt57().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt58().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt58().setEditable(false);
+                        }
+                    } else if (i == 6) {
+                        if (j == 0) {
+                            sudoku.getTxt60().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt60().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt61().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt61().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt62().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt62().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt63().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt63().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt64().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt64().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt65().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt65().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt66().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt66().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt67().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt67().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt68().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt68().setEditable(false);
+                        }
+                    } else if (i == 7) {
+                        if (j == 0) {
+                            sudoku.getTxt70().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt70().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt71().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt71().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt72().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt72().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt73().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt73().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt74().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt74().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt75().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt75().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt76().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt76().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt77().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt77().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt78().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt78().setEditable(false);
+                        }
+                    } else if (i == 8) {
+                        if (j == 0) {
+                            sudoku.getTxt80().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt80().setEditable(false);
+                        } else if (j == 1) {
+                            sudoku.getTxt81().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt81().setEditable(false);
+                        } else if (j == 2) {
+                            sudoku.getTxt82().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt82().setEditable(false);
+                        } else if (j == 3) {
+                            sudoku.getTxt83().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt83().setEditable(false);
+                        } else if (j == 4) {
+                            sudoku.getTxt84().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt84().setEditable(false);
+                        } else if (j == 5) {
+                            sudoku.getTxt85().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt85().setEditable(false);
+                        } else if (j == 6) {
+                            sudoku.getTxt86().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt86().setEditable(false);
+                        } else if (j == 7) {
+                            sudoku.getTxt87().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt87().setEditable(false);
+                        } else if (j == 8) {
+                            sudoku.getTxt88().setText(String.valueOf(matriz[i][j]));
+                            sudoku.getTxt88().setEditable(false);
+                        }
+                    }
+                }
+            }
+        }
+    }
     
     
 }

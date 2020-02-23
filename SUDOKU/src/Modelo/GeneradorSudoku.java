@@ -98,6 +98,19 @@ public class GeneradorSudoku {
         }
     }
     
+    public boolean comprobarValor(String valor1){
+        if (String.valueOf(valor1).equalsIgnoreCase("") || (valor1.codePointAt(0)<=49 || valor1.codePointAt(0)>=57)) {
+            return false;
+        } else {
+            int valor = Integer.valueOf(valor1);
+            if (valor >= 0 && valor < 10) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+    
     public boolean existeFila(int numero, int fila){
         boolean existe=false;
         for(int i=0; i<this.matriz.length; i++){
@@ -152,6 +165,14 @@ public class GeneradorSudoku {
             }
         }
         return existe;
+    }
+    
+    public boolean noCoincideValor(int numero, int fila, int columna){
+        boolean coincide=false;
+        if(this.matrizMadre[fila][columna]!=numero){
+            coincide=true;
+        }
+        return coincide;
     }
     
     public int[][] getMatrizMadre() {
