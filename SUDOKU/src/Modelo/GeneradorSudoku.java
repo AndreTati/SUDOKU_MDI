@@ -153,4 +153,20 @@ public class GeneradorSudoku {
         }
         return existe;
     }
+    
+    public int[][] getMatrizMadre() {
+        return matrizMadre;
+    }
+
+    public void setMatrizMadre(int[][] matrizMadre) {
+        this.matrizMadre = matrizMadre;
+    }
+
+    public int[][] getMatriz() {
+        return matriz;
+    }
+
+    public void setMatriz(int[][] matriz) {
+        this.matriz = matriz;
+    }
 }

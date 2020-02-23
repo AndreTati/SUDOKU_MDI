@@ -31,15 +31,15 @@ public class Inicio implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         if(e.getSource().equals(this.inicio.getBtnFacil())){
             juego.setVisible(true);
-            GeneradorSudoku sud=new GeneradorSudoku(40);
+            Juego sud=new Juego(juego, 40);
             this.inicio.dispose();
         }else if(e.getSource().equals(this.inicio.getBtnMedio())){
             juego.setVisible(true);
-            GeneradorSudoku sud=new GeneradorSudoku(50);
+            Juego sud=new Juego(juego, 50);
             this.inicio.dispose();
         }else if(e.getSource().equals(this.inicio.getBtnDificil())){
             juego.setVisible(true);
-            GeneradorSudoku sud=new GeneradorSudoku(60);
+            Juego sud=new Juego(juego, 60);
             this.inicio.dispose();
         }
     

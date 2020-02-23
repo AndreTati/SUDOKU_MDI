@@ -3,12 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/tatiduran/NetBeansProjects/SUDOKU/src/Controlador/Inicio.java</file>
-            <file>file:/home/tatiduran/NetBeansProjects/SUDOKU/src/Controlador/Juego.java</file>
-            <file>file:/home/tatiduran/NetBeansProjects/SUDOKU/src/Controlador/Main.java</file>
-            <file>file:/home/tatiduran/NetBeansProjects/SUDOKU/src/Vista/JFJuego.java</file>
-            <file>file:/home/tatiduran/NetBeansProjects/SUDOKU/src/Modelo/GeneradorSudoku.java</file>
-            <file>file:/home/tatiduran/NetBeansProjects/SUDOKU/src/Vista/JFInicio.java</file>
+            <file>file:/home/tatiduran/commit%203_modif%20clase%20juego%20e%20inicio/SUDOKU/src/Controlador/Inicio.java</file>
+            <file>file:/home/tatiduran/commit%203_modif%20clase%20juego%20e%20inicio/SUDOKU/src/Modelo/GeneradorSudoku.java</file>
+            <file>file:/home/tatiduran/commit%203_modif%20clase%20juego%20e%20inicio/SUDOKU/src/Controlador/Juego.java</file>
         </group>
     </open-files>
 </project-private>

@@ -8,6 +8,7 @@ package Controlador;
 import Modelo.GeneradorSudoku;
 import Vista.JFInicio;
 import Vista.JFJuego;
+import Vista.JFJuegoResuelto;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -19,11 +20,13 @@ import java.awt.event.KeyListener;
  */
 public class Juego implements ActionListener, KeyListener{
     private JFJuego sudoku;
+    private JFJuegoResuelto resuelto = new JFJuegoResuelto();
     private GeneradorSudoku generador;
     private JFInicio inicio=new JFInicio();
 
-    public Juego(JFJuego juego){
+    public Juego(JFJuego juego, int n){
         this.sudoku=juego;
+        this.generador = new GeneradorSudoku(n);
         sudoku.setVisible(true);
         this.sudoku.getBtnVolver().addActionListener(this);
         this.sudoku.getTxt00().addKeyListener(this);
@@ -110,7 +113,15 @@ public class Juego implements ActionListener, KeyListener{
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (e.getSource().equals(this.sudoku.getBtnVolver())) {
+            inicio.setVisible(true);
+            Inicio ini = new Inicio(inicio);
+            this.sudoku.dispose();
+        }else if (e.getSource().equals(this.sudoku.getBtnResuelto())) {
+            resuelto.setVisible(true);
+            JuegoResuelto resul = new JuegoResuelto(this.generador.getMatrizMadre(), resuelto);
+            this.sudoku.dispose();
+        }
     }
 
     @Override
