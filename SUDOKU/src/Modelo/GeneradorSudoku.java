@@ -33,7 +33,7 @@ public class GeneradorSudoku {
     }
     
     //PARA PRUEBAS
-    public void mostrarMatrizMadre(){
+    /*public void mostrarMatrizMadre(){
         for (int i = 0; i < matrizMadre.length; i++) {
             for (int j = 0; j < matrizMadre[i].length; j++) {
                 System.out.print(matrizMadre[i][j] +" ");
@@ -46,7 +46,7 @@ public class GeneradorSudoku {
                 System.out.print(matriz[i][j] +" ");
             }System.out.println("");
         }
-    }
+    }*/
     
     public void contruirSudoku(int k){
         int n1, n2;
@@ -104,7 +104,7 @@ public class GeneradorSudoku {
     }
     
     public boolean comprobarValor(String valor1){
-        if (String.valueOf(valor1).equalsIgnoreCase("")) {
+        if (String.valueOf(valor1).equalsIgnoreCase("") || (valor1.codePointAt(0)<49 || valor1.codePointAt(0)>57)) {
             return false;
         } else {
             int valor = Integer.valueOf(valor1);

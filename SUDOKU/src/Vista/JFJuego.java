@@ -6,6 +6,7 @@
 package Vista;
 
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 /**
@@ -684,6 +685,16 @@ public class JFJuego extends javax.swing.JFrame {
     public void setTxt88(JTextField txt88) {
         this.txt88 = txt88;
     }
+
+    public JLabel getLbMensaje() {
+        return jLabel2;
+    }
+
+    public void setLbMensaje(JLabel lbMensaje) {
+        this.jLabel2 = lbMensaje;
+    }
+    
+    
     
 
     /**
@@ -697,6 +708,9 @@ public class JFJuego extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        btnVolver = new javax.swing.JButton();
+        btnResuelto = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         txt00 = new javax.swing.JTextField();
         txt01 = new javax.swing.JTextField();
@@ -787,8 +801,6 @@ public class JFJuego extends javax.swing.JFrame {
         txt87 = new javax.swing.JTextField();
         txt88 = new javax.swing.JTextField();
         txt68 = new javax.swing.JTextField();
-        btnVolver = new javax.swing.JButton();
-        btnResuelto = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -801,6 +813,16 @@ public class JFJuego extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("SUDOKU");
+
+        btnVolver.setBackground(new java.awt.Color(102, 102, 102));
+        btnVolver.setForeground(new java.awt.Color(0, 102, 102));
+        btnVolver.setText("Volver");
+
+        btnResuelto.setBackground(new java.awt.Color(102, 102, 102));
+        btnResuelto.setForeground(new java.awt.Color(0, 102, 102));
+        btnResuelto.setText("Resuelto");
+
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102), 3));
 
@@ -1615,14 +1637,6 @@ public class JFJuego extends javax.swing.JFrame {
                     .addGap(0, 0, 0)))
         );
 
-        btnVolver.setBackground(new java.awt.Color(102, 102, 102));
-        btnVolver.setForeground(new java.awt.Color(0, 102, 102));
-        btnVolver.setText("Volver");
-
-        btnResuelto.setBackground(new java.awt.Color(102, 102, 102));
-        btnResuelto.setForeground(new java.awt.Color(0, 102, 102));
-        btnResuelto.setText("Resuelto");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -1653,7 +1667,9 @@ public class JFJuego extends javax.swing.JFrame {
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 60, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(23, 23, 23)
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
                 .addComponent(btnResuelto)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnVolver))
@@ -1678,10 +1694,14 @@ public class JFJuego extends javax.swing.JFrame {
                     .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(jPanel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnVolver)
-                    .addComponent(btnResuelto)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(btnVolver)
+                        .addComponent(btnResuelto))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(15, 15, 15))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -1739,6 +1759,7 @@ public class JFJuego extends javax.swing.JFrame {
     private javax.swing.JButton btnResuelto;
     private javax.swing.JButton btnVolver;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;
