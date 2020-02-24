@@ -153,7 +153,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt00().setForeground(Color.black);
                     this.sudoku.getTxt00().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt00().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt00().setEditable(false);
                     this.generador.getMatriz()[0][0]=Integer.parseInt(this.sudoku.getTxt00().getText());
@@ -176,7 +175,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt01().setForeground(Color.black);
                     this.sudoku.getTxt01().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt01().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt01().setEditable(false);
                     this.generador.getMatriz()[0][1]=Integer.parseInt(this.sudoku.getTxt01().getText());
@@ -199,7 +197,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt02().setForeground(Color.black);
                     this.sudoku.getTxt02().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt02().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt02().setEditable(false);
                     this.generador.getMatriz()[0][2]=Integer.parseInt(this.sudoku.getTxt02().getText());
@@ -222,7 +219,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt03().setForeground(Color.black);
                     this.sudoku.getTxt03().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt03().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt03().setEditable(false);
                     this.generador.getMatriz()[0][3]=Integer.parseInt(this.sudoku.getTxt03().getText());
@@ -245,7 +241,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt04().setForeground(Color.black);
                     this.sudoku.getTxt04().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt04().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt04().setEditable(false);
                     this.generador.getMatriz()[0][4]=Integer.parseInt(this.sudoku.getTxt04().getText());
@@ -268,7 +263,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt05().setForeground(Color.black);
                     this.sudoku.getTxt05().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt05().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt05().setEditable(false);
                     this.generador.getMatriz()[0][5]=Integer.parseInt(this.sudoku.getTxt05().getText());
@@ -291,7 +285,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt06().setForeground(Color.black);
                     this.sudoku.getTxt06().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt06().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt06().setEditable(false);
                     this.generador.getMatriz()[0][6]=Integer.parseInt(this.sudoku.getTxt06().getText());
@@ -314,7 +307,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt07().setForeground(Color.black);
                     this.sudoku.getTxt07().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt07().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt07().setEditable(false);
                     this.generador.getMatriz()[0][7]=Integer.parseInt(this.sudoku.getTxt07().getText());
@@ -337,7 +329,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt08().setForeground(Color.black);
                     this.sudoku.getTxt08().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt08().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt08().setEditable(false);
                     this.generador.getMatriz()[0][8]=Integer.parseInt(this.sudoku.getTxt08().getText());
@@ -360,7 +351,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt10().setForeground(Color.black);
                     this.sudoku.getTxt10().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt10().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt10().setEditable(false);
                     this.generador.getMatriz()[1][0]=Integer.parseInt(this.sudoku.getTxt10().getText());
@@ -383,7 +373,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt11().setForeground(Color.black);
                     this.sudoku.getTxt11().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt11().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt11().setEditable(false);
                     this.generador.getMatriz()[1][1]=Integer.parseInt(this.sudoku.getTxt11().getText());
@@ -406,7 +395,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt12().setForeground(Color.black);
                     this.sudoku.getTxt12().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt12().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt12().setEditable(false);
                     this.generador.getMatriz()[1][2]=Integer.parseInt(this.sudoku.getTxt12().getText());
@@ -429,7 +417,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt13().setForeground(Color.black);
                     this.sudoku.getTxt13().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt13().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt13().setEditable(false);
                     this.generador.getMatriz()[1][3]=Integer.parseInt(this.sudoku.getTxt13().getText());
@@ -452,7 +439,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt14().setForeground(Color.black);
                     this.sudoku.getTxt14().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt14().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt14().setEditable(false);
                     this.generador.getMatriz()[1][4]=Integer.parseInt(this.sudoku.getTxt14().getText());
@@ -475,7 +461,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt15().setForeground(Color.black);
                     this.sudoku.getTxt15().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt15().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt15().setEditable(false);
                     this.generador.getMatriz()[1][5]=Integer.parseInt(this.sudoku.getTxt15().getText());
@@ -498,7 +483,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt16().setForeground(Color.black);
                     this.sudoku.getTxt16().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt16().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt16().setEditable(false);
                     this.generador.getMatriz()[1][6]=Integer.parseInt(this.sudoku.getTxt16().getText());
@@ -521,7 +505,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt17().setForeground(Color.black);
                     this.sudoku.getTxt17().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt17().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt17().setEditable(false);
                     this.generador.getMatriz()[1][7]=Integer.parseInt(this.sudoku.getTxt17().getText());
@@ -544,7 +527,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt18().setForeground(Color.black);
                     this.sudoku.getTxt18().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt18().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt18().setEditable(false);
                     this.generador.getMatriz()[1][8]=Integer.parseInt(this.sudoku.getTxt18().getText());
@@ -567,7 +549,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt20().setForeground(Color.black);
                     this.sudoku.getTxt20().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt20().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt20().setEditable(false);
                     this.generador.getMatriz()[2][0]=Integer.parseInt(this.sudoku.getTxt20().getText());
@@ -590,7 +571,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt21().setForeground(Color.black);
                     this.sudoku.getTxt21().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt21().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt21().setEditable(false);
                     this.generador.getMatriz()[2][1]=Integer.parseInt(this.sudoku.getTxt21().getText());
@@ -613,7 +593,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt22().setForeground(Color.black);
                     this.sudoku.getTxt22().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt22().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt22().setEditable(false);
                     this.generador.getMatriz()[2][2]=Integer.parseInt(this.sudoku.getTxt22().getText());
@@ -636,7 +615,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt23().setForeground(Color.black);
                     this.sudoku.getTxt23().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt23().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt23().setEditable(false);
                     this.generador.getMatriz()[2][3]=Integer.parseInt(this.sudoku.getTxt23().getText());
@@ -659,7 +637,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt24().setForeground(Color.black);
                     this.sudoku.getTxt24().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt24().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt24().setEditable(false);
                     this.generador.getMatriz()[2][4]=Integer.parseInt(this.sudoku.getTxt24().getText());
@@ -682,7 +659,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt25().setForeground(Color.black);
                     this.sudoku.getTxt25().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt25().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt25().setEditable(false);
                     this.generador.getMatriz()[2][5]=Integer.parseInt(this.sudoku.getTxt25().getText());
@@ -705,7 +681,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt26().setForeground(Color.black);
                     this.sudoku.getTxt26().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt26().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt26().setEditable(false);
                     this.generador.getMatriz()[2][6]=Integer.parseInt(this.sudoku.getTxt26().getText());
@@ -728,7 +703,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt27().setForeground(Color.black);
                     this.sudoku.getTxt27().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt27().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt27().setEditable(false);
                     this.generador.getMatriz()[2][7]=Integer.parseInt(this.sudoku.getTxt27().getText());
@@ -751,7 +725,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt28().setForeground(Color.black);
                     this.sudoku.getTxt28().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt28().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt28().setEditable(false);
                     this.generador.getMatriz()[2][8]=Integer.parseInt(this.sudoku.getTxt28().getText());
@@ -774,7 +747,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt30().setForeground(Color.black);
                     this.sudoku.getTxt30().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt30().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt30().setEditable(false);
                     this.generador.getMatriz()[3][0]=Integer.parseInt(this.sudoku.getTxt30().getText());
@@ -797,7 +769,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt31().setForeground(Color.black);
                     this.sudoku.getTxt31().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt31().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt31().setEditable(false);
                     this.generador.getMatriz()[3][1]=Integer.parseInt(this.sudoku.getTxt31().getText());
@@ -820,7 +791,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt32().setForeground(Color.black);
                     this.sudoku.getTxt32().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt32().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt32().setEditable(false);
                     this.generador.getMatriz()[3][2]=Integer.parseInt(this.sudoku.getTxt32().getText());
@@ -843,7 +813,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt33().setForeground(Color.black);
                     this.sudoku.getTxt33().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt33().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt33().setEditable(false);
                     this.generador.getMatriz()[3][3]=Integer.parseInt(this.sudoku.getTxt33().getText());
@@ -866,7 +835,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt34().setForeground(Color.black);
                     this.sudoku.getTxt34().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt34().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt34().setEditable(false);
                     this.generador.getMatriz()[3][4]=Integer.parseInt(this.sudoku.getTxt34().getText());
@@ -889,7 +857,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt35().setForeground(Color.black);
                     this.sudoku.getTxt35().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt35().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt35().setEditable(false);
                     this.generador.getMatriz()[3][5]=Integer.parseInt(this.sudoku.getTxt35().getText());
@@ -912,7 +879,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt36().setForeground(Color.black);
                     this.sudoku.getTxt36().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt36().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt36().setEditable(false);
                     this.generador.getMatriz()[3][6]=Integer.parseInt(this.sudoku.getTxt36().getText());
@@ -935,7 +901,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt37().setForeground(Color.black);
                     this.sudoku.getTxt37().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt37().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt37().setEditable(false);
                     this.generador.getMatriz()[3][7]=Integer.parseInt(this.sudoku.getTxt37().getText());
@@ -958,7 +923,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt38().setForeground(Color.black);
                     this.sudoku.getTxt38().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt38().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt38().setEditable(false);
                     this.generador.getMatriz()[3][8]=Integer.parseInt(this.sudoku.getTxt38().getText());
@@ -981,7 +945,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt40().setForeground(Color.black);
                     this.sudoku.getTxt40().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt40().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt40().setEditable(false);
                     this.generador.getMatriz()[4][0]=Integer.parseInt(this.sudoku.getTxt40().getText());
@@ -1004,7 +967,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt41().setForeground(Color.black);
                     this.sudoku.getTxt41().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt41().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt41().setEditable(false);
                     this.generador.getMatriz()[4][1]=Integer.parseInt(this.sudoku.getTxt41().getText());
@@ -1027,7 +989,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt42().setForeground(Color.black);
                     this.sudoku.getTxt42().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt42().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt42().setEditable(false);
                     this.generador.getMatriz()[4][2]=Integer.parseInt(this.sudoku.getTxt42().getText());
@@ -1050,7 +1011,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt43().setForeground(Color.black);
                     this.sudoku.getTxt43().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt43().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt43().setEditable(false);
                     this.generador.getMatriz()[4][3]=Integer.parseInt(this.sudoku.getTxt43().getText());
@@ -1073,7 +1033,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt44().setForeground(Color.black);
                     this.sudoku.getTxt44().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt44().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt44().setEditable(false);
                     this.generador.getMatriz()[4][4]=Integer.parseInt(this.sudoku.getTxt44().getText());
@@ -1096,7 +1055,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt45().setForeground(Color.black);
                     this.sudoku.getTxt45().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt45().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt45().setEditable(false);
                     this.generador.getMatriz()[4][5]=Integer.parseInt(this.sudoku.getTxt45().getText());
@@ -1119,7 +1077,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt46().setForeground(Color.black);
                     this.sudoku.getTxt46().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt46().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt46().setEditable(false);
                     this.generador.getMatriz()[4][6]=Integer.parseInt(this.sudoku.getTxt46().getText());
@@ -1142,7 +1099,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt47().setForeground(Color.black);
                     this.sudoku.getTxt47().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt47().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt47().setEditable(false);
                     this.generador.getMatriz()[4][7]=Integer.parseInt(this.sudoku.getTxt47().getText());
@@ -1165,7 +1121,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt48().setForeground(Color.black);
                     this.sudoku.getTxt48().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt48().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt48().setEditable(false);
                     this.generador.getMatriz()[4][8]=Integer.parseInt(this.sudoku.getTxt48().getText());
@@ -1188,7 +1143,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt50().setForeground(Color.black);
                     this.sudoku.getTxt50().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt50().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt50().setEditable(false);
                     this.generador.getMatriz()[5][0]=Integer.parseInt(this.sudoku.getTxt50().getText());
@@ -1211,7 +1165,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt51().setForeground(Color.black);
                     this.sudoku.getTxt51().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt51().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt51().setEditable(false);
                     this.generador.getMatriz()[5][1]=Integer.parseInt(this.sudoku.getTxt51().getText());
@@ -1234,7 +1187,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt52().setForeground(Color.black);
                     this.sudoku.getTxt52().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt52().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt52().setEditable(false);
                     this.generador.getMatriz()[5][2]=Integer.parseInt(this.sudoku.getTxt52().getText());
@@ -1257,7 +1209,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt53().setForeground(Color.black);
                     this.sudoku.getTxt53().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt53().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt53().setEditable(false);
                     this.generador.getMatriz()[5][3]=Integer.parseInt(this.sudoku.getTxt53().getText());
@@ -1280,7 +1231,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt54().setForeground(Color.black);
                     this.sudoku.getTxt54().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt54().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt54().setEditable(false);
                     this.generador.getMatriz()[5][4]=Integer.parseInt(this.sudoku.getTxt54().getText());
@@ -1303,7 +1253,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt55().setForeground(Color.black);
                     this.sudoku.getTxt55().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt55().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt55().setEditable(false);
                     this.generador.getMatriz()[5][5]=Integer.parseInt(this.sudoku.getTxt55().getText());
@@ -1326,7 +1275,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt56().setForeground(Color.black);
                     this.sudoku.getTxt56().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt56().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt56().setEditable(false);
                     this.generador.getMatriz()[5][6]=Integer.parseInt(this.sudoku.getTxt56().getText());
@@ -1349,7 +1297,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt57().setForeground(Color.black);
                     this.sudoku.getTxt57().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt57().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt57().setEditable(false);
                     this.generador.getMatriz()[5][7]=Integer.parseInt(this.sudoku.getTxt57().getText());
@@ -1372,7 +1319,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt58().setForeground(Color.black);
                     this.sudoku.getTxt58().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt58().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt58().setEditable(false);
                     this.generador.getMatriz()[5][8]=Integer.parseInt(this.sudoku.getTxt58().getText());
@@ -1395,7 +1341,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt60().setForeground(Color.black);
                     this.sudoku.getTxt60().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt60().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt60().setEditable(false);
                     this.generador.getMatriz()[6][0]=Integer.parseInt(this.sudoku.getTxt60().getText());
@@ -1418,7 +1363,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt61().setForeground(Color.black);
                     this.sudoku.getTxt61().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt61().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt61().setEditable(false);
                     this.generador.getMatriz()[6][1]=Integer.parseInt(this.sudoku.getTxt61().getText());
@@ -1441,7 +1385,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt62().setForeground(Color.black);
                     this.sudoku.getTxt62().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt62().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt62().setEditable(false);
                     this.generador.getMatriz()[6][2]=Integer.parseInt(this.sudoku.getTxt62().getText());
@@ -1464,7 +1407,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt63().setForeground(Color.black);
                     this.sudoku.getTxt63().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt63().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt63().setEditable(false);
                     this.generador.getMatriz()[6][3]=Integer.parseInt(this.sudoku.getTxt63().getText());
@@ -1487,7 +1429,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt64().setForeground(Color.black);
                     this.sudoku.getTxt64().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt64().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt64().setEditable(false);
                     this.generador.getMatriz()[6][4]=Integer.parseInt(this.sudoku.getTxt64().getText());
@@ -1510,7 +1451,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt65().setForeground(Color.black);
                     this.sudoku.getTxt65().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt65().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt65().setEditable(false);
                     this.generador.getMatriz()[6][5]=Integer.parseInt(this.sudoku.getTxt65().getText());
@@ -1533,7 +1473,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt66().setForeground(Color.black);
                     this.sudoku.getTxt66().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt66().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt66().setEditable(false);
                     this.generador.getMatriz()[6][6]=Integer.parseInt(this.sudoku.getTxt66().getText());
@@ -1556,7 +1495,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt67().setForeground(Color.black);
                     this.sudoku.getTxt67().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt67().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt67().setEditable(false);
                     this.generador.getMatriz()[6][7]=Integer.parseInt(this.sudoku.getTxt67().getText());
@@ -1579,7 +1517,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt68().setForeground(Color.black);
                     this.sudoku.getTxt68().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt68().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt68().setEditable(false);
                     this.generador.getMatriz()[6][8]=Integer.parseInt(this.sudoku.getTxt68().getText());
@@ -1602,7 +1539,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt70().setForeground(Color.black);
                     this.sudoku.getTxt70().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt70().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt70().setEditable(false);
                     this.generador.getMatriz()[7][0]=Integer.parseInt(this.sudoku.getTxt70().getText());
@@ -1625,7 +1561,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt71().setForeground(Color.black);
                     this.sudoku.getTxt71().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt71().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt71().setEditable(false);
                     this.generador.getMatriz()[7][1]=Integer.parseInt(this.sudoku.getTxt71().getText());
@@ -1648,7 +1583,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt72().setForeground(Color.black);
                     this.sudoku.getTxt72().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt72().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt72().setEditable(false);
                     this.generador.getMatriz()[7][2]=Integer.parseInt(this.sudoku.getTxt72().getText());
@@ -1671,7 +1605,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt73().setForeground(Color.black);
                     this.sudoku.getTxt73().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt73().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt73().setEditable(false);
                     this.generador.getMatriz()[7][3]=Integer.parseInt(this.sudoku.getTxt73().getText());
@@ -1694,7 +1627,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt74().setForeground(Color.black);
                     this.sudoku.getTxt74().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt74().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt74().setEditable(false);
                     this.generador.getMatriz()[7][4]=Integer.parseInt(this.sudoku.getTxt74().getText());
@@ -1717,7 +1649,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt75().setForeground(Color.black);
                     this.sudoku.getTxt75().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt75().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt75().setEditable(false);
                     this.generador.getMatriz()[7][5]=Integer.parseInt(this.sudoku.getTxt75().getText());
@@ -1741,7 +1672,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt76().setForeground(Color.black);
                     this.sudoku.getTxt76().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt76().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt76().setEditable(false);
                     this.generador.getMatriz()[7][6]=Integer.parseInt(this.sudoku.getTxt76().getText());
@@ -1764,7 +1694,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt77().setForeground(Color.black);
                     this.sudoku.getTxt77().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt77().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt77().setEditable(false);
                     this.generador.getMatriz()[7][7]=Integer.parseInt(this.sudoku.getTxt77().getText());
@@ -1787,7 +1716,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt78().setForeground(Color.black);
                     this.sudoku.getTxt78().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt78().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt78().setEditable(false);
                     this.generador.getMatriz()[7][8]=Integer.parseInt(this.sudoku.getTxt78().getText());
@@ -1810,7 +1738,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt80().setForeground(Color.black);
                     this.sudoku.getTxt80().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt80().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt80().setEditable(false);
                     this.generador.getMatriz()[8][0]=Integer.parseInt(this.sudoku.getTxt80().getText());
@@ -1833,7 +1760,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt81().setForeground(Color.black);
                     this.sudoku.getTxt81().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt81().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt81().setEditable(false);
                     this.generador.getMatriz()[8][1]=Integer.parseInt(this.sudoku.getTxt81().getText());
@@ -1856,7 +1782,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt82().setForeground(Color.black);
                     this.sudoku.getTxt82().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt82().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt82().setEditable(false);
                     this.generador.getMatriz()[8][2]=Integer.parseInt(this.sudoku.getTxt82().getText());
@@ -1879,7 +1804,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt83().setForeground(Color.black);
                     this.sudoku.getTxt83().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt83().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt83().setEditable(false);
                     this.generador.getMatriz()[8][3]=Integer.parseInt(this.sudoku.getTxt83().getText());
@@ -1902,7 +1826,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt84().setForeground(Color.black);
                     this.sudoku.getTxt84().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt84().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt84().setEditable(false);
                     this.generador.getMatriz()[8][4]=Integer.parseInt(this.sudoku.getTxt84().getText());
@@ -1925,7 +1848,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt85().setForeground(Color.black);
                     this.sudoku.getTxt85().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt85().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt85().setEditable(false);
                     this.generador.getMatriz()[8][5]=Integer.parseInt(this.sudoku.getTxt85().getText());
@@ -1948,7 +1870,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt86().setForeground(Color.black);
                     this.sudoku.getTxt86().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt86().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt86().setEditable(false);
                     this.generador.getMatriz()[8][6]=Integer.parseInt(this.sudoku.getTxt86().getText());
@@ -1971,7 +1892,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt87().setForeground(Color.black);
                     this.sudoku.getTxt87().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt87().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt87().setEditable(false);
                     this.generador.getMatriz()[8][7]=Integer.parseInt(this.sudoku.getTxt87().getText());
@@ -1994,7 +1914,6 @@ public class Juego implements ActionListener, KeyListener {
                     this.sudoku.getTxt88().setForeground(Color.black);
                     this.sudoku.getTxt88().setForeground(new Color(0, 0, 255));
                 }else{
-                    this.sudoku.getLbMensaje().setText("");
                     this.sudoku.getTxt88().setForeground(new Color(0, 102, 102));
                     this.sudoku.getTxt88().setEditable(false);
                     this.generador.getMatriz()[8][8]=Integer.parseInt(this.sudoku.getTxt88().getText());

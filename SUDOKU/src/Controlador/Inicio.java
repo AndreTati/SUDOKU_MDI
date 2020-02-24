@@ -7,6 +7,7 @@ package Controlador;
 
 import Modelo.GeneradorSudoku;
 import Vista.JFInicio;
+import Vista.JFInstrucciones;
 import Vista.JFJuego;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -18,6 +19,7 @@ import java.awt.event.ActionListener;
 public class Inicio implements ActionListener{
     private JFInicio inicio;
     private JFJuego juego=new JFJuego();
+    private JFInstrucciones instrucciones=new JFInstrucciones();
     
     public Inicio(JFInicio ini){
         this.inicio=ini;
@@ -25,6 +27,7 @@ public class Inicio implements ActionListener{
         this.inicio.getBtnFacil().addActionListener(this);
         this.inicio.getBtnMedio().addActionListener(this);
         this.inicio.getBtnDificil().addActionListener(this);
+        this.inicio.getBtnInstrucciones().addActionListener(this);
     }
 
     @Override
@@ -40,6 +43,10 @@ public class Inicio implements ActionListener{
         }else if(e.getSource().equals(this.inicio.getBtnDificil())){
             juego.setVisible(true);
             Juego sud=new Juego(juego, 60);
+            this.inicio.dispose();
+        }else if(e.getSource().equals(this.inicio.getBtnInstrucciones())){
+            instrucciones.setVisible(true);
+            Instrucciones instruc=new Instrucciones(instrucciones);
             this.inicio.dispose();
         }
     
