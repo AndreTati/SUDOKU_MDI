@@ -21,14 +21,6 @@ public class JFJuego extends javax.swing.JFrame {
         initComponents();
     }
 
-    public JButton getBtnVolver() {
-        return btnVolver;
-    }
-
-    public void setBtnVolver(JButton btnVolver) {
-        this.btnVolver = btnVolver;
-    }
-
     public JButton getBtnResuelto() {
         return btnResuelto;
     }
@@ -37,8 +29,14 @@ public class JFJuego extends javax.swing.JFrame {
         this.btnResuelto = btnResuelto;
     }
 
-    
-    
+    public JButton getBtnVolver() {
+        return btnVolver;
+    }
+
+    public void setBtnVolver(JButton btnVolver) {
+        this.btnVolver = btnVolver;
+    }
+
     public JTextField getTxt00() {
         return txt00;
     }
@@ -699,8 +697,6 @@ public class JFJuego extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        btnVolver = new javax.swing.JButton();
-        btnResuelto = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         txt00 = new javax.swing.JTextField();
         txt01 = new javax.swing.JTextField();
@@ -791,6 +787,8 @@ public class JFJuego extends javax.swing.JFrame {
         txt87 = new javax.swing.JTextField();
         txt88 = new javax.swing.JTextField();
         txt68 = new javax.swing.JTextField();
+        btnVolver = new javax.swing.JButton();
+        btnResuelto = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -803,14 +801,6 @@ public class JFJuego extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("SUDOKU");
-
-        btnVolver.setBackground(new java.awt.Color(102, 102, 102));
-        btnVolver.setForeground(new java.awt.Color(0, 102, 102));
-        btnVolver.setText("Volver");
-
-        btnResuelto.setBackground(new java.awt.Color(102, 102, 102));
-        btnResuelto.setForeground(new java.awt.Color(0, 102, 102));
-        btnResuelto.setText("Resuelto");
 
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102), 3));
 
@@ -1624,6 +1614,14 @@ public class JFJuego extends javax.swing.JFrame {
                             .addComponent(txt88, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGap(0, 0, 0)))
         );
+
+        btnVolver.setBackground(new java.awt.Color(102, 102, 102));
+        btnVolver.setForeground(new java.awt.Color(0, 102, 102));
+        btnVolver.setText("Volver");
+
+        btnResuelto.setBackground(new java.awt.Color(102, 102, 102));
+        btnResuelto.setForeground(new java.awt.Color(0, 102, 102));
+        btnResuelto.setText("Resuelto");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

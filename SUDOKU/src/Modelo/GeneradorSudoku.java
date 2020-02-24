@@ -32,6 +32,7 @@ public class GeneradorSudoku {
         dificultad(n);
     }
     
+    //PARA PRUEBAS
     public void mostrarMatrizMadre(){
         for (int i = 0; i < matrizMadre.length; i++) {
             for (int j = 0; j < matrizMadre[i].length; j++) {
@@ -85,13 +86,17 @@ public class GeneradorSudoku {
     }
     
     public void dificultad(int cantidad){
-        this.matriz=this.matrizMadre;
+        for (int i = 0; i < this.matriz.length; i++) {
+            for (int j = 0; j < this.matriz.length; j++) {
+                this.matriz[i][j]=this.matrizMadre[i][j];
+            }
+        }
         Random n=new Random();
         for (int i = 0; i < cantidad; i++) {
             int a=n.nextInt(9);
             int b=n.nextInt(9);
-            if(matriz[a][b]!=0){
-                matriz[a][b]=0;
+            if(this.matriz[a][b]!=0){
+                this.matriz[a][b]=0;
             }else{
                 i--;
             }
@@ -99,7 +104,7 @@ public class GeneradorSudoku {
     }
     
     public boolean comprobarValor(String valor1){
-        if (String.valueOf(valor1).equalsIgnoreCase("") || (valor1.codePointAt(0)<=49 || valor1.codePointAt(0)>=57)) {
+        if (String.valueOf(valor1).equalsIgnoreCase("")) {
             return false;
         } else {
             int valor = Integer.valueOf(valor1);
@@ -174,7 +179,7 @@ public class GeneradorSudoku {
         }
         return coincide;
     }
-    
+
     public int[][] getMatrizMadre() {
         return matrizMadre;
     }
@@ -190,4 +195,6 @@ public class GeneradorSudoku {
     public void setMatriz(int[][] matriz) {
         this.matriz = matriz;
     }
+    
+    
 }

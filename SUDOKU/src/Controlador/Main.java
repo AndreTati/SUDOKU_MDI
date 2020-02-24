@@ -6,6 +6,7 @@
 package Controlador;
 
 import Modelo.GeneradorSudoku;
+import Vista.JFInicio;
 
 /**
  *
@@ -18,9 +19,8 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        GeneradorSudoku sud1=new GeneradorSudoku(60);
-        sud1.mostrarMatriz();
-        
+        JFInicio inicio=new JFInicio();
+        Inicio iniCtrl=new Inicio(inicio);
     }
     
 }
